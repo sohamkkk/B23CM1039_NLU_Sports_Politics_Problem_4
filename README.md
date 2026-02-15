@@ -2,7 +2,7 @@
 
 ## Overview
 
-This documents a binary text classification system for distinguishing between sports and politics news articles. The paper is based on the Jupyter notebook implementation and provides an academic-level analysis of the methodology, experiments, and results.
+This documents a binary text classification system for distinguishing between sports and politics news articles.
 
 ## Document Structure
 
@@ -16,16 +16,16 @@ This documents a binary text classification system for distinguishing between sp
 - List of figures
 - List of tables
 
-### 2. **Problem Statement**
+### 3. **Problem Statement**
 
-### 3. **Data Collection and Analysis**
+### 4. **Data Collection and Analysis**
 - Dataset source (Kaggle News Category Dataset)
 - Dataset characteristics (10,000 articles, perfectly balanced)
 - Data filtering and preparation
 - Text feature construction
 - Exploratory data analysis with visualizations
 
-### 6. **Methodology (Section 4)**
+### 5. **Methodology**
 - **Text Preprocessing**: Cleaning, lowercasing, special character removal
 - **Feature Extraction**: 
   - Bag of Words (BoW)
@@ -40,25 +40,27 @@ This documents a binary text classification system for distinguishing between sp
   - Random Forest
 - **Evaluation Metrics**: Accuracy, Precision, Recall, F1-Score, Confusion Matrix
 
-### 7. **Experimental Results (Section 5)**
+### 6. **Experimental Results**
 - Overall performance comparison across 15 configurations
 - Detailed results for each feature type
 - Confusion matrix analysis
 - Learning curves
 - Runtime analysis
 
-### 9. **Conclusion**
+### 7. **Discussion**
+- Limitations - Dataset, Model and Evaluation
+
+### 8. **Conclusion**
 - Summary of contributions
 - Performance achievements
 - Practical implications
 
-### 10. **References**
+### 9. **References**
 - Academic citations for methods and datasets used
 
-### 11. **Appendices**
+### 10. **Appendices**
 - Complete code implementation
-- Hardware and software specifications
-- Additional experimental results
+- Software Requirements
 
 ## Key Results
 
@@ -100,5 +102,4 @@ All implemented using scikit-learn with default parameters (except where noted):
 - Linear SVM
 - KNN (k=5)
 - Random Forest (n_estimators=200)
-
 ---
